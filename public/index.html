@@ -8,11 +8,10 @@
 
 <head>
     <title>Home</title>
+    <!-- Redirect section -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
@@ -37,14 +36,14 @@
 
                 <div style="display:flex; justify-content: space-between;">
                     <!-- Logo -->
-                    <a href="about.html" class="logo" style="display:inline-block">
+                    <a href="index.html" class="logo" style="display:inline-block">
                         <span class="symbol"><img src="images/Logo.PNG" alt="" /></span><span
                             class="title">Worldwide</span>
                     </a>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWPvs-XB37aFLEl3bxMXYkibfJmqZ2wy3A44uFEUy0QWjzsg/viewform?usp=sf_link "
+                    <a href="cards.html"
                         class="button primary" target="_blank" style="display:inline-block; 
-                        margin: 0 1.25em 0 1.6em;">Checkout Form</a>
+                        margin: 0 1.25em 0 1.6em;">Greeting Card Catalog</a>
                 </div>
 
                 <!-- Nav -->
@@ -61,8 +60,8 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="index.html">Card Catalog</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="cards.html">Card Catalog</a></li>
+                <li><a href="index.html">About Us</a></li>
                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScWPvs-XB37aFLEl3bxMXYkibfJmqZ2wy3A44uFEUy0QWjzsg/viewform?usp=sf_link "
                         target="_blank">Checkout Form</a></li>
             </ul>
@@ -71,22 +70,33 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1><b>Card Catalog</b></h1>
-                <p>Click on the cards to get a full screen view.
-                    <br />
-                    Purchased cards will not include the Worldwide
-                    logo watermark as shown in the catalog.
-                    <br />
-                    <br />
-                    <strong>Digital Version</strong> - $3.00
-                    <br />
-                    <strong>Paper Version</strong> - $5.00, will be printed and mailed using USPS First-Class mail.
-                    <br />
-                    Same pricetag applies to personalized commissions as well.
+                <h1>Worldwide: Who Are We?<br /></h1>
+                <p><strong>We are a student-led organization based in Michigan designing and delivering personalized eco-friendly greeting cards.</strong>
+                    All profit is donated towards Midland Open Doors -- so you can make a difference while making
+                    a loved one's day by purchasing one of our greeting cards.</p>
+                <h2>Our Goal:</h2>
+                <p>The money collected from the cards will be used to help those in need. We will donate our proceeds to
+                    <a href="https://www.midlandopendoor.org/programs-and-services/">Midland Open Door</a> -- a local
+                    community soup kitchen, shelter, clothing assistance, and much more.
                 </p>
-                <!-- Insert Thank you cards here -->
-                <h2><b>Thank You Cards</b></h2>
-                <h3><b>Horizontal</b></h3>
+                <h2>How to Purchase a Greeting Card: </h2>
+                <p>Simply click on the button located at the top of the website or go to the menu and click on ‘Purchase
+                    Here’. It’ll take you to a google form where you can fill out with your email and purchase through
+                    PayPal.</p>
+                <h2>Why Us?</h2>
+                <ul>
+                    <li>Profit donated to a nonprofit: you can make a difference</li>
+                    <li>Digital greeting cards are eco-friendly</li>
+                    <li>You can email a card to someone halfway around the world</li>
+                    <li>Quick and efficient</li>
+                    <li>We do commissions - if you have any specific requests for how you want your greeting card to
+                        look like, we can make it for you</li>
+                    <li>Can’t lose them! We will provide you a digital PDF version of your card in case you wish to use
+                        it again</li>
+                </ul>
+
+                <!-- example cards on bottom -->
+                <h1>Sample Cards</h1>
                 <section class="tiles">
                     <article>
                         <span class="image">
@@ -103,160 +113,6 @@
                         </span>
                         <br />
                         <p>Thank You: Rainbow</p>
-                    </article>
-                </section>
-                <!-- Vertical thank you cards -->
-                <br />
-                <h3><b>Vertical</b></h3>
-                <section class="tiles">
-                    <article>
-                        <p>To be made!</p>
-                    </article>
-                </section>
-                <!-- Insert get well soon here-->
-                <br />
-                <h2><b>Get Well Soon Cards</b></h2>
-                <h3><b>Horizontal</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Get Well Soon Cards/W-Pink Orchids Get Well Soon Card.PNG"
-                                alt="Pink Orchids" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Get Well Soon: Pink Orchids</p>
-                    </article>
-                </section>
-                <br />
-                <h3><b>Vertical</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Get Well Soon Cards/W-Shiba Inu Get Well Soon Card.PNG"
-                                alt="Shiba Inu" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Get Well Soon: Shiba Inu</p>
-                    </article>
-                </section>
-                <!-- Insert Birthday cards here -->
-                <br />
-                <h2><b>Birthday Cards</b></h2>
-                <h3><b>Horizontal</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Birthday Cards/W-Flamingo Birthday Card.PNG" alt="Flamingo"
-                                onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Birthday: Flamingo</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Birthday Cards/W-Unicorn Birthday Card.PNG" alt="Flamingo"
-                                onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Birthday: Unicorn</p>
-                    </article>
-                </section>
-                <h3><b>Vertical</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Birthday Cards/W-Balloons Birthday Card.PNG" alt="Balloons"
-                                onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Birthday: Balloons</p>
-                    </article>
-                </section>
-                <!-- Insert blank templates here -->
-                <br />
-                <h2><b>Basic Greeting Cards - Personalized</b></h2>
-                <h3><b>Horizontal</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Basic Greeting Cards - Personalized/W-Round Roses Basic Greeting Card.PNG"
-                                alt="Round Roses" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Personalized: Round Roses</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Basic Greeting Cards - Personalized/W-Awaiting Dog Basic Greeting Card.PNG"
-                                alt="Awaiting Dog" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Personalized: Awaiting Dog</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Basic Greeting Cards - Personalized/W-Gift Wrapped Basic Greeting Card.PNG"
-                                alt="Gift-Wrapped" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Personalized: Gift-Wrapped</p>
-                    </article>
-                </section>
-                <br />
-                <h3><b>Vertical</b></h3>
-                <section class="tiles">
-                    <article>
-                        <p>To be made!</p>
-                    </article>
-                </section>
-                <!-- Insert Mother's Day Cards here -->
-                <h2><b>Mother's Day Cards</b></h2>
-                <h3><b>Horizontal</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Mother's Day Cards/W-I Love You, Macaron Mothers Day Card.PNG"
-                                alt="I Love You, Macaron" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Mother's Day: <br />O'Macaron Partnership: "I Love You, Macaron"</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Mother's Day Cards/W-Chocolate Mothers Day Card.JPG"
-                                alt="Chocolate Macarons" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Mother's Day: Chocolate</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Mother's Day Cards/W-Bright Floral Mothers Day Card.JPG"
-                                alt="Bright Floral" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Mother's Day: Bright Floral</p>
-                    </article>
-                </section>
-                <!-- Vertical Mother's Day Cards -->
-                <br />
-                <h3><b>Vertical</b></h3>
-                <section class="tiles">
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Mother's Day Cards/W-Watercolor Flowers Mothers Day Card.PNG"
-                                alt="Watercolor Flowers" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Mother's Day: Watercolor Flowers</p>
-                    </article>
-                    <article>
-                        <span class="image">
-                            <img src="images/Watermarked/Mother's Day Cards/W-Floral Mothers Day Card.PNG"
-                                alt="Watercolor Flowers" onclick="onClick(this)" />
-                        </span>
-                        <br />
-                        <p>Mother's Day: Floral</p>
                     </article>
                 </section>
             </div>
@@ -294,87 +150,36 @@
             </div>
         </footer>
 
-        <!-- Modal for full size images on click-->
-        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"
-                onclick="closeModal();"><i class="fa fa-remove"></i></span>
-            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                <img id="img01" class="w3-image">
-                <p id="caption" class="w3-opacity w3-large"></p>
-            </div>
-        </div>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
-    </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
 
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-
-        function closeModal() {
-            //sets the display back to normal
-            document.getElementById("button").style.display = "block";
-        }
-
-        // Modal Image Gallery
-        function onClick(element) {
-            //my own add-on, makes the button invisible
-            document.getElementById("button").style.display = 'none';
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-            var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
-        }
-
-        // Change style of navbar on scroll
-        window.onscroll = function () { myFunction() };
-        function myFunction() {
-            var navbar = document.getElementById("myNavbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-            }
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+        <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
 
-    <script>
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        var firebaseConfig = {
-            apiKey: "AIzaSyAcvJbDMFvsvNh32L1IDZlk5JvLtOq_TRI",
-            authDomain: "worldwide-cards.firebaseapp.com",
-            projectId: "worldwide-cards",
-            storageBucket: "worldwide-cards.appspot.com",
-            messagingSenderId: "45900974965",
-            appId: "1:45900974965:web:d10150b7ddb5412703a13c",
-            measurementId: "G-TYVQ5G2RJX"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyAcvJbDMFvsvNh32L1IDZlk5JvLtOq_TRI",
+                authDomain: "worldwide-cards.firebaseapp.com",
+                projectId: "worldwide-cards",
+                storageBucket: "worldwide-cards.appspot.com",
+                messagingSenderId: "45900974965",
+                appId: "1:45900974965:web:d10150b7ddb5412703a13c",
+                measurementId: "G-TYVQ5G2RJX"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
 </body>
 
 </html>
