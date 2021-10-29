@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		/*background: #ffffff;*/
+        background: #b8ffb8;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2973,6 +2974,8 @@ input, select, textarea {
 		-ms-transition: opacity 0.45s ease;
 		transition: opacity 0.45s ease;
 		opacity: 1;
+        /* this changes the entire thing's text color */
+        color: #bc4b4b;
 	}
 
 	#menu {
@@ -3170,6 +3173,7 @@ input, select, textarea {
 	#footer {
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
+        background: #a3f0a3;
 	}
 
 		#footer > .inner {
